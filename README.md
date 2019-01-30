@@ -1,5 +1,5 @@
 # Word2VectorsProject
-The project uses a genism model to create word embeddings, it investigates the word in conjunction with the words around it and it determines it’s context. In such a way it is able to map words as vectors into (in this case 300) dimensional space. Words are clustered together based on meaning or relation in the corpus
+The project uses a genism model to create word embeddings, it investigates each word in conjunction with the words around it and it determines it’s context. In such a way it is able to map words as vectors into (in this case 300) dimensional space. Words are clustered together based on meaning or relation in the corpus
 ## Model Training
 The model trains with 50 epochs with the code provided. If you want to change the number of epochs look at the 'iter' variable in the model definition. 
 ## Saved Model
