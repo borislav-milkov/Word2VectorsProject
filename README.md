@@ -5,4 +5,11 @@ The model trains with 50 epochs with the code provided. If you want to change th
 ## Saved Model
 The model saves to the folder trained after training. This will allow you to skip training the next time and just jump to the already created word embeddings (vectors).
 ## Dimensionality
-The embedding word vectors are 300 dimensional tensors. Since graphing in so many dimensions is impossible, we squash it to two dimensions using T-SNE. What T-SNE allows us to do is to reduce dimensionality while preserving our clustering of vectors (words). An intor to T-SNE can be seen here : https://www.youtube.com/watch?v=NEaUSP4YerM 
+The embedding word vectors are 300 dimensional tensors. Since graphing in so many dimensions is impossible, we squash it to two dimensions using T-SNE. What T-SNE allows us to do is to reduce dimensionality while preserving our clustering of vectors (words). An intro to T-SNE can be seen here : https://www.youtube.com/watch?v=NEaUSP4YerM 
+
+## Applications
+You can find a lot of practical applications of word2vec. Here I am listing two of them.
+1.	If you want to compare two sentences and see how similar they are, you can find the cosine similarity between those vectors.
+2.	If have a document retrieval problem, you can compare the query vector with the document vectors using KL Divergence and retrieve relevant documents.
+
+
