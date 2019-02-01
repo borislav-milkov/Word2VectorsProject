@@ -10,7 +10,7 @@ The embedding word vectors are 300 dimensional tensors. Since graphing in so man
 ## Applications
 You can find a lot of practical applications of word2vec. Here I am listing two of them.
 1.	If you want to compare two sentences and see how similar they are, you can find the cosine similarity between those vectors.
-2.	If have a document retrieval problem, you can compare the query vector with the document vectors using KL Divergence and retrieve relevant documents.
+2.	If you have a document retrieval problem, you can compare the query vector with the document vectors using KL Divergence and retrieve relevant documents.
 
 ## Demo
 We can see how our model clusters words which have similar vectors. We can see an example with food items being clustered. For more plots check out the Thrones2Vec iPython notebook. 
